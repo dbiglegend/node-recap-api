@@ -15,6 +15,8 @@ let studentRecords = [
     {name: 'ginald', age: 20, course: 'business admin'},
     {name: 'caleb', age: 20, course: 'information system'},
     {name: 'taoreed', age: 20, course: 'mass com'},
+    {name: 'micheal', age: 20, course: 'computer science'},
+    {name: 'james', age: 20, course: 'law'}
 ]
 app.get("/",(request,respond)=>{
     respond.send(studentRecords)
